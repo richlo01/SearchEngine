@@ -1,0 +1,45 @@
+1. machine
+2. machine learning
+3. machine machine learning
+	- This wasn't giving us the best result because searching machine learning
+	  and machine machine learning were giving us similar results but we went back
+	  and fixed something minor in the query TDIF.
+4. machine learning learning
+5. cristina
+6. lopes
+7. cristina lopes
+8. master of software engineering
+	- This one lacked efficiency as there were many words to search for
+	  but our implementation of the index was also inefficient. We were previously
+	  loading the whole index based on their letter but now, it will search for
+	  just the words and return their docIDs and term frequencies
+9. ACM
+10. information retrieval
+11. violets are blue
+	- We wanted to make sure that words that weren't there wouldn't be considered
+12. asdfhjlqweruipoip
+	- We didn't consider words that didn't exist so it would crash, but now we used a "try-except" to
+	  counter those keys that don't exist
+13. an as by it of on android
+	- Efficiency was bad on long queries so one solution was to delete all stop words
+14. he's write vs he writing
+	- It shouldnt matter whether we query different variations of the same words. We went
+	  back and stemmed the words
+15. AI@uci intelligence
+	- writng in special characters shouldn't be a problem, nor should capitalizations. So, we 
+	  went back and fixed them in query handling.
+16. alberto krone
+	- Both the words didn't exist in the index and are true words. It would take awhile because
+	  both the words would have to check the whole index but we split the indexes up by letter
+	  so retrieval would be faster.
+17. thornton boo
+	- Professor Thornton is notorious for the existence of Boo (rip) and previously our
+	  cosine similarity wouldn't match boo with thornton so we made sure to normalize our 
+	  queries and docID before computing cosine similarity which we decided to make ourselves
+	  rather than using a library.
+18. graph algorithms
+	- this query allows us to measure how well strong tags do in the search. It was difficult to weight
+	  strong tags within specific docIDs, but we did this in pre-processing of the index.
+19. cool things to do in france
+20. quarantine
+	   
