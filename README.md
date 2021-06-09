@@ -4,6 +4,7 @@ similarity between tokens and documents using term frequency - inverse document 
 index that was sorted alphebetically. Here we would do word preprocessing and document duplicate checks using SimHash. This way, the results are accurate
 and efficient since they were done before hand.
 
-<br />An example image is as follow
+<br />An example image is as follows:
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/47437080/121440415-b5c8f980-c93c-11eb-9caf-3ee20daabe13.png" width="1000">
 </p>
